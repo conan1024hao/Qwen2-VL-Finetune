@@ -1,4 +1,4 @@
-name: qwen2
+name: qwen2-finetune
 channels:
   - defaults
 dependencies:
@@ -59,7 +59,7 @@ dependencies:
       - gitpython==3.1.43
       - gmpy2==2.1.2
       - hjson==3.1.0
-      - huggingface-hub==0.23.2
+      - huggingface-hub==0.24.0
       - idna==3.4
       - intel-openmp==2024.1.0
       - ipykernel==6.29.3
